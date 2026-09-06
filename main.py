@@ -70,7 +70,14 @@ display(
 
 settlements = calculate_vulnerability_score(settlements)
 
+
+
+
 display("\nVULNERABILITY ENGINE OUTPUT")
+
+
+
+
 
 display(
     settlements[
