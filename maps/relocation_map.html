@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_986ee7287d659d3b2f7ac457b1654f18 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_986ee7287d659d3b2f7ac457b1654f18" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_986ee7287d659d3b2f7ac457b1654f18 = L.map(
+                "map_986ee7287d659d3b2f7ac457b1654f18",
+                {
+                    center: [11.594205, 76.12132766666667],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ce62f9d549e86b566718ee853574a739 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ce62f9d549e86b566718ee853574a739.addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var circle_marker_7a19197061962301341e090cef742e82 = L.circleMarker(
+                [11.554974, 76.134894],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_f97ee18e79d7f7065bcc84ac5aac70f8 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c07e0b6b832f63b22b91cdaed1560269 = $(`<div id="html_c07e0b6b832f63b22b91cdaed1560269" style="width: 100.0%; height: 100.0%;">     <b>Meppadi</b><br>      Population: 8500<br>     Risk score: 66.97<br>     Risk Category: HIGH <br>     </div>`)[0];
+                popup_f97ee18e79d7f7065bcc84ac5aac70f8.setContent(html_c07e0b6b832f63b22b91cdaed1560269);
+            
+        
+
+        circle_marker_7a19197061962301341e090cef742e82.bindPopup(popup_f97ee18e79d7f7065bcc84ac5aac70f8)
+        ;
+
+        
+    
+    
+            var circle_marker_fabc97eb98958ddc264e6754e3e8567b = L.circleMarker(
+                [11.486641, 76.155089],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_181be2bb35237a1ae773abfd6a3d5eed = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_729ae3fa9c3a452b6d914e4b36a76b96 = $(`<div id="html_729ae3fa9c3a452b6d914e4b36a76b96" style="width: 100.0%; height: 100.0%;">     <b>Mundakkai</b><br>      Population: 4200<br>     Risk score: 72.38<br>     Risk Category: HIGH <br>     </div>`)[0];
+                popup_181be2bb35237a1ae773abfd6a3d5eed.setContent(html_729ae3fa9c3a452b6d914e4b36a76b96);
+            
+        
+
+        circle_marker_fabc97eb98958ddc264e6754e3e8567b.bindPopup(popup_181be2bb35237a1ae773abfd6a3d5eed)
+        ;
+
+        
+    
+    
+            var circle_marker_e3cae30a430512e1b3f95211e652ab6b = L.circleMarker(
+                [11.741, 76.074],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_9855fe705be1a746501881cdf0df26d5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b457a111e7ce120d6b7bd5b4144d2cec = $(`<div id="html_b457a111e7ce120d6b7bd5b4144d2cec" style="width: 100.0%; height: 100.0%;">     <b>Panamaram</b><br>      Population: 11000<br>     Risk score: 50.66<br>     Risk Category: HIGH <br>     </div>`)[0];
+                popup_9855fe705be1a746501881cdf0df26d5.setContent(html_b457a111e7ce120d6b7bd5b4144d2cec);
+            
+        
+
+        circle_marker_e3cae30a430512e1b3f95211e652ab6b.bindPopup(popup_9855fe705be1a746501881cdf0df26d5)
+        ;
+
+        
+    
+    
+            var marker_0174fb3c6a0ebbb7d0c1c010aee89c5c = L.marker(
+                [11.8296, 75.9409],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_eb11e5bfd525550a436e4ab35b5bed81 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3792a0059b24e5a0bdb5ee0ca939cfd9 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_695997efb8a003151c6532f99d2d3339 = $(`<div id="html_695997efb8a003151c6532f99d2d3339" style="width: 100.0%; height: 100.0%;">     <b>Mananthavady</b><br>      Available Land:     32.5<br>      Flood Risk:     0.22<br>      Landslide Risk:     0.28<br>      Soil Stability:     0.78<br>      Water Availability:     0.82     </div>`)[0];
+                popup_3792a0059b24e5a0bdb5ee0ca939cfd9.setContent(html_695997efb8a003151c6532f99d2d3339);
+            
+        
+
+        marker_0174fb3c6a0ebbb7d0c1c010aee89c5c.bindPopup(popup_3792a0059b24e5a0bdb5ee0ca939cfd9)
+        ;
+
+        
+    
+    
+                marker_0174fb3c6a0ebbb7d0c1c010aee89c5c.setIcon(icon_eb11e5bfd525550a436e4ab35b5bed81);
+            
+    
+            var marker_4d10f1a828c17dd8e3a546bf771685b8 = L.marker(
+                [11.804, 76.074],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_0c12827365ad0ff95d2626e3ba8574b4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_044745232be78c69c7ebc3c06cf8e60e = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_9b8fa839af19e87dd6ba6740a905bb0e = $(`<div id="html_9b8fa839af19e87dd6ba6740a905bb0e" style="width: 100.0%; height: 100.0%;">     <b>Vellamunda</b><br>      Available Land:     28.0<br>      Flood Risk:     0.3<br>      Landslide Risk:     0.35<br>      Soil Stability:     0.72<br>      Water Availability:     0.78     </div>`)[0];
+                popup_044745232be78c69c7ebc3c06cf8e60e.setContent(html_9b8fa839af19e87dd6ba6740a905bb0e);
+            
+        
+
+        marker_4d10f1a828c17dd8e3a546bf771685b8.bindPopup(popup_044745232be78c69c7ebc3c06cf8e60e)
+        ;
+
+        
+    
+    
+                marker_4d10f1a828c17dd8e3a546bf771685b8.setIcon(icon_0c12827365ad0ff95d2626e3ba8574b4);
+            
+    
+            var marker_470fdfd5aa3b7f51fcee15df6b0f0c97 = L.marker(
+                [11.6595, 76.1668],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_7d31e404c59f18a10005b6ba03b41bf8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_74d4cbb90a86e918a7059818ea4f09ce = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4a6982267f3986e027a133373f44a58e = $(`<div id="html_4a6982267f3986e027a133373f44a58e" style="width: 100.0%; height: 100.0%;">     <b>Meenangadi</b><br>      Available Land:     24.5<br>      Flood Risk:     0.28<br>      Landslide Risk:     0.32<br>      Soil Stability:     0.8<br>      Water Availability:     0.88     </div>`)[0];
+                popup_74d4cbb90a86e918a7059818ea4f09ce.setContent(html_4a6982267f3986e027a133373f44a58e);
+            
+        
+
+        marker_470fdfd5aa3b7f51fcee15df6b0f0c97.bindPopup(popup_74d4cbb90a86e918a7059818ea4f09ce)
+        ;
+
+        
+    
+    
+                marker_470fdfd5aa3b7f51fcee15df6b0f0c97.setIcon(icon_7d31e404c59f18a10005b6ba03b41bf8);
+            
+    
+            var marker_5b6b14bd9630b8273dcd99de4a3d301f = L.marker(
+                [11.704, 76.279],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_597c299cd0048f0c6ff8ddb45798bc3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9eac959a336163e78988f410f192fae3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_66e2c5b05b2a834261222df587ac49f3 = $(`<div id="html_66e2c5b05b2a834261222df587ac49f3" style="width: 100.0%; height: 100.0%;">     <b>Nenmeni</b><br>      Available Land:     35.0<br>      Flood Risk:     0.25<br>      Landslide Risk:     0.3<br>      Soil Stability:     0.82<br>      Water Availability:     0.84     </div>`)[0];
+                popup_9eac959a336163e78988f410f192fae3.setContent(html_66e2c5b05b2a834261222df587ac49f3);
+            
+        
+
+        marker_5b6b14bd9630b8273dcd99de4a3d301f.bindPopup(popup_9eac959a336163e78988f410f192fae3)
+        ;
+
+        
+    
+    
+                marker_5b6b14bd9630b8273dcd99de4a3d301f.setIcon(icon_597c299cd0048f0c6ff8ddb45798bc3d);
+            
+    
+            var marker_c447867c57f48a81d25e1af2234b25ad = L.marker(
+                [11.716, 76.346],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_73cace35c1a534b2ac4180fe2600e5b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f33a30d7636130740275cced9387079 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ed19006f5adb336a9d31efd2a1eb8755 = $(`<div id="html_ed19006f5adb336a9d31efd2a1eb8755" style="width: 100.0%; height: 100.0%;">     <b>Noolpuzha</b><br>      Available Land:     40.0<br>      Flood Risk:     0.32<br>      Landslide Risk:     0.4<br>      Soil Stability:     0.7<br>      Water Availability:     0.76     </div>`)[0];
+                popup_3f33a30d7636130740275cced9387079.setContent(html_ed19006f5adb336a9d31efd2a1eb8755);
+            
+        
+
+        marker_c447867c57f48a81d25e1af2234b25ad.bindPopup(popup_3f33a30d7636130740275cced9387079)
+        ;
+
+        
+    
+    
+                marker_c447867c57f48a81d25e1af2234b25ad.setIcon(icon_73cace35c1a534b2ac4180fe2600e5b1);
+            
+    
+            var marker_d831dcbb912303b45c1b384008a6cb90 = L.marker(
+                [11.806, 76.256],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_bd7be0b595d84ef18d045d166dde8685 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_af6de1f75b0f4373603def7d341b4903 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_7b715d15eca6a2aa4af178f7f2eba056 = $(`<div id="html_7b715d15eca6a2aa4af178f7f2eba056" style="width: 100.0%; height: 100.0%;">     <b>Pulpally</b><br>      Available Land:     30.0<br>      Flood Risk:     0.35<br>      Landslide Risk:     0.33<br>      Soil Stability:     0.76<br>      Water Availability:     0.8     </div>`)[0];
+                popup_af6de1f75b0f4373603def7d341b4903.setContent(html_7b715d15eca6a2aa4af178f7f2eba056);
+            
+        
+
+        marker_d831dcbb912303b45c1b384008a6cb90.bindPopup(popup_af6de1f75b0f4373603def7d341b4903)
+        ;
+
+        
+    
+    
+                marker_d831dcbb912303b45c1b384008a6cb90.setIcon(icon_bd7be0b595d84ef18d045d166dde8685);
+            
+    
+            var marker_75ef45941d58f07c9bc5db8d1379794b = L.marker(
+                [11.707, 76.013],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_e0d48ddf746b26ee856e01524e478568 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d38ea5fea7cf77ff8c9e51d96b6eaaa6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8ac687712bd6537021a554b73c6fc728 = $(`<div id="html_8ac687712bd6537021a554b73c6fc728" style="width: 100.0%; height: 100.0%;">     <b>Kambalakkad</b><br>      Available Land:     22.0<br>      Flood Risk:     0.24<br>      Landslide Risk:     0.29<br>      Soil Stability:     0.81<br>      Water Availability:     0.85     </div>`)[0];
+                popup_d38ea5fea7cf77ff8c9e51d96b6eaaa6.setContent(html_8ac687712bd6537021a554b73c6fc728);
+            
+        
+
+        marker_75ef45941d58f07c9bc5db8d1379794b.bindPopup(popup_d38ea5fea7cf77ff8c9e51d96b6eaaa6)
+        ;
+
+        
+    
+    
+                marker_75ef45941d58f07c9bc5db8d1379794b.setIcon(icon_e0d48ddf746b26ee856e01524e478568);
+            
+    
+            var marker_839ce076081b259f4c1e16dcb35e75e2 = L.marker(
+                [11.828, 76.126],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_57ae632efd144ed3a391542c662b2e75 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36d51d06e50067b7d0dbfe0436134f32 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_ae50bcceb323d88e96af51142b31b4a4 = $(`<div id="html_ae50bcceb323d88e96af51142b31b4a4" style="width: 100.0%; height: 100.0%;">     <b>Thavinjal</b><br>      Available Land:     38.0<br>      Flood Risk:     0.38<br>      Landslide Risk:     0.45<br>      Soil Stability:     0.65<br>      Water Availability:     0.74     </div>`)[0];
+                popup_36d51d06e50067b7d0dbfe0436134f32.setContent(html_ae50bcceb323d88e96af51142b31b4a4);
+            
+        
+
+        marker_839ce076081b259f4c1e16dcb35e75e2.bindPopup(popup_36d51d06e50067b7d0dbfe0436134f32)
+        ;
+
+        
+    
+    
+                marker_839ce076081b259f4c1e16dcb35e75e2.setIcon(icon_57ae632efd144ed3a391542c662b2e75);
+            
+    
+            var marker_0001979c39336604d024fbde70d3988e = L.marker(
+                [11.77, 76.06],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_c998ab1173652efefd4e7a6f10f81410 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_96242fdfaa1f23d4f94842af34da3251 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_2d4b6327d5f9761527fb619b1bc8d58f = $(`<div id="html_2d4b6327d5f9761527fb619b1bc8d58f" style="width: 100.0%; height: 100.0%;">     <b>Cherukattoor</b><br>      Available Land:     26.0<br>      Flood Risk:     0.26<br>      Landslide Risk:     0.31<br>      Soil Stability:     0.79<br>      Water Availability:     0.81     </div>`)[0];
+                popup_96242fdfaa1f23d4f94842af34da3251.setContent(html_2d4b6327d5f9761527fb619b1bc8d58f);
+            
+        
+
+        marker_0001979c39336604d024fbde70d3988e.bindPopup(popup_96242fdfaa1f23d4f94842af34da3251)
+        ;
+
+        
+    
+    
+                marker_0001979c39336604d024fbde70d3988e.setIcon(icon_c998ab1173652efefd4e7a6f10f81410);
+            
+    
+            var marker_1f03f51e36f3166601a6eb400df00b47 = L.marker(
+                [11.6928, 76.1562],
+                {
+}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+            var icon_933376bd1594f48b2281709138ae3068 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3da226536e5e25a28fce10036d503d6d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c6ee50fcea5d7a0b2c0bad444a0346a4 = $(`<div id="html_c6ee50fcea5d7a0b2c0bad444a0346a4" style="width: 100.0%; height: 100.0%;">     <b>Vellankolli</b><br>      Available Land:     34.0<br>      Flood Risk:     0.29<br>      Landslide Risk:     0.36<br>      Soil Stability:     0.74<br>      Water Availability:     0.79     </div>`)[0];
+                popup_3da226536e5e25a28fce10036d503d6d.setContent(html_c6ee50fcea5d7a0b2c0bad444a0346a4);
+            
+        
+
+        marker_1f03f51e36f3166601a6eb400df00b47.bindPopup(popup_3da226536e5e25a28fce10036d503d6d)
+        ;
+
+        
+    
+    
+                marker_1f03f51e36f3166601a6eb400df00b47.setIcon(icon_933376bd1594f48b2281709138ae3068);
+            
+    
+            var poly_line_16c857f2bde9de1ad942166073a2657c = L.polyline(
+                [[11.554974, 76.134894], [11.6595, 76.1668]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_c6d25ab4f0f1a8a2afb13ed9e574e286 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31bcabfbc17186a8afe2e7a6506b7d8f = $(`<div id="html_31bcabfbc17186a8afe2e7a6506b7d8f" style="width: 100.0%; height: 100.0%;">Meppadi → Meenangadi<br>Estimated Road Distance: 16.38 km</div>`)[0];
+                popup_c6d25ab4f0f1a8a2afb13ed9e574e286.setContent(html_31bcabfbc17186a8afe2e7a6506b7d8f);
+            
+        
+
+        poly_line_16c857f2bde9de1ad942166073a2657c.bindPopup(popup_c6d25ab4f0f1a8a2afb13ed9e574e286)
+        ;
+
+        
+    
+    
+            var poly_line_3255d6abce26c6660b300f2997c329d6 = L.polyline(
+                [[11.486641, 76.155089], [11.6595, 76.1668]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_1a98b870f15d8bf2ac715a04d25d2234 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_56a99d81b24e17448be373e06609b685 = $(`<div id="html_56a99d81b24e17448be373e06609b685" style="width: 100.0%; height: 100.0%;">Mundakkai → Meenangadi<br>Estimated Road Distance: 26.01 km</div>`)[0];
+                popup_1a98b870f15d8bf2ac715a04d25d2234.setContent(html_56a99d81b24e17448be373e06609b685);
+            
+        
+
+        poly_line_3255d6abce26c6660b300f2997c329d6.bindPopup(popup_1a98b870f15d8bf2ac715a04d25d2234)
+        ;
+
+        
+    
+    
+            var poly_line_a628de651815626ef4d06efe6fac9142 = L.polyline(
+                [[11.741, 76.074], [11.77, 76.06]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_986ee7287d659d3b2f7ac457b1654f18);
+        
+    
+        var popup_431ef19b8867123f2430c89f633652ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a889f96b4cccc4f5e31909b2b80d1ad3 = $(`<div id="html_a889f96b4cccc4f5e31909b2b80d1ad3" style="width: 100.0%; height: 100.0%;">Panamaram → Cherukattoor<br>Estimated Road Distance: 4.82 km</div>`)[0];
+                popup_431ef19b8867123f2430c89f633652ef.setContent(html_a889f96b4cccc4f5e31909b2b80d1ad3);
+            
+        
+
+        poly_line_a628de651815626ef4d06efe6fac9142.bindPopup(popup_431ef19b8867123f2430c89f633652ef)
+        ;
+
+        
+    
+</script>
+</html>

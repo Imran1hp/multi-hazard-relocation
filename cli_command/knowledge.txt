@@ -1,0 +1,16 @@
+$paths = @(
+    "data_generator.py"
+    "preprocessing.py"
+    "engines/hazard_engine.py"
+    "engines/vulnerability_engine.py"
+    "engines/risk_engine.py"
+    "engines/suitability_engine.py"
+    "engines/capacity_engine.py"
+    "optimization/relocation_optimizer.py"
+    "main.py"
+    "results/relocation_plan.csv"
+)
+
+foreach ($path in $paths) {
+    $null = New-Item -Path $path -ItemType File -Force
+}

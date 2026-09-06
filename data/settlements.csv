@@ -1,0 +1,11 @@
+settlement_id,settlement_name,latitude,longitude,district,state,population,population_density,flood_frequency,flood_depth,rainfall,landslide_susceptibility,elevation,slope,soil_stability,distance_to_river,historical_disaster_count,poverty_index,age_vulnerability,housing_vulnerability,infrastructure_access,healthcare_access,education_access,built_up_exposure,road_exposure,critical_infrastructure_exposure
+SET001,Meppadi,11.554974,76.134894,Wayanad,Kerala,8500,950,8,2.8,3500,0.92,730,28,0.35,1.2,6,0.42,0.31,0.58,0.55,0.62,0.58,0.72,0.65,0.60
+SET002,Mundakkai,11.486641,76.155089,Wayanad,Kerala,4200,620,9,3.2,3800,0.96,820,32,0.28,0.8,7,0.48,0.35,0.65,0.42,0.48,0.45,0.50,0.40,0.35
+SET003,Muttil,11.642691,76.111700,Wayanad,Kerala,12000,1100,5,1.6,2900,0.55,760,14,0.65,3.5,4,0.30,0.25,0.40,0.68,0.75,0.72,0.85,0.80,0.75
+SET004,Kaniyambetta,11.695163,76.080225,Wayanad,Kerala,9500,890,6,2.1,3100,0.68,780,19,0.52,2.0,5,0.38,0.28,0.48,0.60,0.68,0.64,0.70,0.62,0.58
+SET005,Kalpetta,11.659718,76.062398,Wayanad,Kerala,18000,1600,4,1.2,2800,0.42,740,10,0.72,4.5,3,0.25,0.20,0.32,0.85,0.90,0.88,0.95,0.92,0.90
+SET006,Meenangadi,11.659466,76.166840,Wayanad,Kerala,10500,780,5,1.8,3000,0.48,790,12,0.68,3.0,4,0.32,0.27,0.38,0.70,0.76,0.74,0.68,0.70,0.65
+SET007,Ambalavayal,11.619708,76.210250,Wayanad,Kerala,9800,720,4,1.4,2700,0.38,890,9,0.74,5.2,3,0.35,0.24,0.35,0.72,0.78,0.75,0.66,0.68,0.62
+SET008,Sulthan Bathery,11.664728,76.262665,Wayanad,Kerala,16000,1300,3,1.0,2500,0.30,907,7,0.78,6.0,2,0.28,0.22,0.30,0.88,0.92,0.90,0.90,0.88,0.92
+SET009,Panamaram,11.741000,76.074000,Wayanad,Kerala,11000,650,7,2.4,3200,0.58,720,11,0.60,1.5,5,0.40,0.30,0.50,0.58,0.65,0.60,0.62,0.68,0.55
+SET010,Thirunelly,11.945376,76.061534,Wayanad,Kerala,6200,180,5,1.5,3300,0.72,900,24,0.45,2.8,4,0.45,0.38,0.55,0.40,0.42,0.38,0.30,0.35,0.28
