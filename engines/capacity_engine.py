@@ -1,14 +1,19 @@
 def calculate_carrying_capacity(df):
 
     # Prototype assumptions
+    # ``available_land`` is measured in hectares, while the three service
+    # indicators are proportions from 0 to 1. Convert each into people before
+    # selecting the limiting resource.
+    people_per_hectare = 500
+    population_at_full_service = 20_000
 
-    # 1 unit of available land supports 100 people
-    df["land_capacity"] = df["available_land"] * 100
+    # One hectare supports 500 people in this planning model.
+    df["land_capacity"] = df["available_land"] * people_per_hectare
 
     # Water availability score represents a maximum
-    # population support level for simulation purposes
+    # population support level when the score is 1.0.
     df["water_capacity"] = (
-        df["water_availability"] * 50
+        df["water_availability"] * population_at_full_service
     )
 
     # Infrastructure capacity based on the weakest
@@ -22,7 +27,7 @@ def calculate_carrying_capacity(df):
             ]
         ]
         .mean(axis=1)
-        * 60
+        * population_at_full_service
     )
 
     # Final carrying capacity is constrained by
