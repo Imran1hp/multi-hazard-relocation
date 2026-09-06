@@ -1,6 +1,6 @@
 
 import pandas as pd
-from IPython.display import display
+
 
 
 # Preprocessing
@@ -51,7 +51,7 @@ settlements = calculate_hazard_score(settlements)
 
 print("\nHAZARD ENGINE OUTPUT")
 
-display(
+print(
     settlements[
         [
             "settlement_id",
@@ -73,13 +73,13 @@ settlements = calculate_vulnerability_score(settlements)
 
 
 
-display("\nVULNERABILITY ENGINE OUTPUT")
+print("\nVULNERABILITY ENGINE OUTPUT")
 
 
 
 
 
-display(
+print(
     settlements[
         [
             "settlement_id",
@@ -98,9 +98,9 @@ display(
 
 settlements = calculate_risk_score(settlements)
 
-display("\nMULTI-HAZARD RISK ENGINE OUTPUT")
+print("\nMULTI-HAZARD RISK ENGINE OUTPUT")
 
-display(
+print(
     settlements[
         [
             "settlement_id",
@@ -122,7 +122,7 @@ relocation_candidates = filter_relocation_candidates(settlements)
 
 print("\nSETTLEMENTS REQUIRING RELOCATION")
 
-display(
+print(
     relocation_candidates[
         [
             "settlement_id",
@@ -146,7 +146,7 @@ sites = calculate_site_suitability(sites)
 
 print("\nSAFE SITE SUITABILITY OUTPUT")
 
-display(
+print(
     sites[
         [
             "site_id",
@@ -168,7 +168,7 @@ sites = calculate_carrying_capacity(sites)
 
 print("\nCARRYING CAPACITY OUTPUT")
 
-display(
+print(
     sites[
         [
             "site_id",
@@ -201,14 +201,14 @@ print("\n================================")
 print("FINAL RELOCATION PLAN")
 print("================================")
 
-display(relocation_plan)
+print(relocation_plan)
 
 
 print("\n================================")
 print("REMAINING SITE CAPACITY")
 print("================================")
 
-display(
+print(
     updated_sites[
         [
             "site_id",
