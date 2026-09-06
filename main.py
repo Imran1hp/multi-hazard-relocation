@@ -112,7 +112,7 @@ print(
         ]
     ]
 )
-
+print(f"imaran: {settlements.columns}")
 
 # ==========================================
 # 6. RELOCATION FILTER
@@ -202,6 +202,7 @@ print("FINAL RELOCATION PLAN")
 print("================================")
 
 print(relocation_plan)
+print(relocation_plan.columns)
 
 
 print("\n================================")
