@@ -1,9 +1,6 @@
 def calculate_carrying_capacity(df):
 
-    # Prototype assumptions
-    # ``available_land`` is measured in hectares, while the three service
-    # indicators are proportions from 0 to 1. Convert each into people before
-    # selecting the limiting resource.
+
     people_per_hectare = 500
     population_at_full_service = 20_000
 
